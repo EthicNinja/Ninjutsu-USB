@@ -8,10 +8,10 @@
 
 NinjaKeyboard Function List
 ----
-<b>pressAndRelease</b> = Press a key or combination of keyboard and release. usage : pressAndRelease(ALT, TAB)</br>
-<b>press</b> = Press a key or combination of keyboard without release. usage : press(ALT, TAB)</br>
+<b>pressAndRelease</b> = Press a key or combination of keyboard and release. usage : pressAndRelease(key_ALT, key_TAB)</br>
+<b>press</b> = Press a key or combination of keyboard without release. usage : press(key_ALT, key_TAB)</br>
 <b>echo</b> = write a text without enter/newline/return. usage : echo("text")</br>
-<b>echoandEnter</b> = write the text and enter/newline/return. usage : echoandEnter("text")</br>
+<b>echoEnter</b> = write the text and enter/newline/return. usage : echoEnter("text")</br>
 <b>sleep</b> = delay or sleep for "n" milisecond. usage : sleep(5)</br>
 <b>winRun</b> = open Windows Run and type a Windows command. usage : winRun("command")</br>
 <b>hideWindow</b> = hide an active window not minimize. usage : hideWindow()</br>
