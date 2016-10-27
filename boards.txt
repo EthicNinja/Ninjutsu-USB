@@ -7,7 +7,7 @@ menu.cpu=Processor
 
 
 
-digispark-tiny.name=NinjaSpark (Default - 16.5mhz)
+digispark-tiny.name=DigiSpark (Default - 16.5mhz)
 digispark-tiny.upload.using=micronucleusprog
 digispark-tiny.upload.protocol=usb
 digispark-tiny.upload.tool=micronucleus
