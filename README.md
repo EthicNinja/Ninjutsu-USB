@@ -43,4 +43,4 @@ void loop() {
 
 
 ```
-[More Payload](https://github.com/EthicNinja/Ninjutsu-USB/tree/master/libraries/NinjaKeyboard/examples)
+[More Payload](https://github.com/EthicNinja/Ninjutsu-USB/wiki/Payloads)
